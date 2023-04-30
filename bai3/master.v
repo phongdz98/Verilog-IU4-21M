@@ -45,7 +45,7 @@ module master (
     endcase
   end
 
-// D flip flop
+// D ff
 always @(posedge sclk_m) begin
   MOSI<=data_mosi;
 end
