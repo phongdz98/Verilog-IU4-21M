@@ -1,20 +1,20 @@
 [*]
 [*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
-[*] Sun Apr 30 15:24:48 2023
+[*] Sun Apr 30 15:52:26 2023
 [*]
-[dumpfile] "D:\YandexDisk-congphong1998\YandexDisk\Study\hoc ki\thac si\ki 2\Orlov\dz\bai3\dump.vcd"
+[dumpfile] "D:\YandexDisk-congphong1998\YandexDisk\Study\hoc ki\thac si\ki 2\Orlov\dz\zadanhie 3\dump.vcd"
 [dumpfile_mtime] "Sun Apr 30 15:22:55 2023"
 [dumpfile_size] 37205
-[savefile] "D:\YandexDisk-congphong1998\YandexDisk\Study\hoc ki\thac si\ki 2\Orlov\dz\bai3\1.gtkw"
+[savefile] "D:\YandexDisk-congphong1998\YandexDisk\Study\hoc ki\thac si\ki 2\Orlov\dz\zadanhie 3\1.gtkw"
 [timestart] 3525
 [size] 1920 1009
-[pos] -1 -1
+[pos] -191 -191
 *-6.501606 4046 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] spi_slave_tb.
 [sst_width] 211
 [signals_width] 335
 [sst_expanded] 1
-[sst_vpaned_height] 298
+[sst_vpaned_height] 632
 @22
 spi_slave_tb.master.data_m[63:0]
 @28
