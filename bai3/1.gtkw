@@ -1,0 +1,67 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Apr 30 15:24:48 2023
+[*]
+[dumpfile] "D:\YandexDisk-congphong1998\YandexDisk\Study\hoc ki\thac si\ki 2\Orlov\dz\bai3\dump.vcd"
+[dumpfile_mtime] "Sun Apr 30 15:22:55 2023"
+[dumpfile_size] 37205
+[savefile] "D:\YandexDisk-congphong1998\YandexDisk\Study\hoc ki\thac si\ki 2\Orlov\dz\bai3\1.gtkw"
+[timestart] 3525
+[size] 1920 1009
+[pos] -1 -1
+*-6.501606 4046 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] spi_slave_tb.
+[sst_width] 211
+[signals_width] 335
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@22
+spi_slave_tb.master.data_m[63:0]
+@28
+spi_slave_tb.mosi
+spi_slave_tb.sclk_m
+spi_slave_tb.sclk_s
+spi_slave_tb.reset
+spi_slave_tb.cs
+@24
+spi_slave_tb.count_s[6:0]
+@22
+spi_slave_tb.cmd[7:0]
+@c00022
+spi_slave_tb.address[23:0]
+@28
+(0)spi_slave_tb.address[23:0]
+(1)spi_slave_tb.address[23:0]
+(2)spi_slave_tb.address[23:0]
+(3)spi_slave_tb.address[23:0]
+(4)spi_slave_tb.address[23:0]
+(5)spi_slave_tb.address[23:0]
+(6)spi_slave_tb.address[23:0]
+(7)spi_slave_tb.address[23:0]
+(8)spi_slave_tb.address[23:0]
+(9)spi_slave_tb.address[23:0]
+(10)spi_slave_tb.address[23:0]
+(11)spi_slave_tb.address[23:0]
+(12)spi_slave_tb.address[23:0]
+(13)spi_slave_tb.address[23:0]
+(14)spi_slave_tb.address[23:0]
+(15)spi_slave_tb.address[23:0]
+(16)spi_slave_tb.address[23:0]
+(17)spi_slave_tb.address[23:0]
+(18)spi_slave_tb.address[23:0]
+(19)spi_slave_tb.address[23:0]
+(20)spi_slave_tb.address[23:0]
+(21)spi_slave_tb.address[23:0]
+(22)spi_slave_tb.address[23:0]
+(23)spi_slave_tb.address[23:0]
+@1401200
+-group_end
+@22
+spi_slave_tb.data[31:0]
+@28
+spi_slave_tb.read_en
+spi_slave_tb.master.miso
+@22
+spi_slave_tb.spi_slave_inst.data_miso[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
