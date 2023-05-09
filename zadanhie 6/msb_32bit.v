@@ -24,11 +24,11 @@ msb_8bit msb_8bit_3(.input_num(input_part[3]),.output_pos(part_msb[3]),.clk(clk)
 
 always @(posedge clk)begin
     flag = 0;
-    output_pos = 6'd0;
+    output_pos <= 6'd0;
     i = 3;
     while (i >= 0 && flag == 0) begin
         if(part_msb[i]!=4'b0) begin
-            output_pos = (i*8) + part_msb[i];
+            output_pos <= (i*8) + part_msb[i];
             flag =1;
         end
         i = i-1;

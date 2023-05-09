@@ -25,9 +25,9 @@ end;
 initial begin
     #10
     input_num = 32'h31003131;
-    #20;
+    #10;
     input_num = 32'h00003131;
-    #20;
+    #10;
     input_num = 32'h00000001;
     #20;
     $finish();

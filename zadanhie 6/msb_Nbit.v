@@ -24,11 +24,11 @@ endgenerate
 
 always @(posedge clk)begin
     flag = 0;
-    output_pos = 6'd0;
+    output_pos <= 6'd0;
     i = N/8 - 1;
     while (i >= 0 && flag == 0) begin
         if(part_msb[i]!=4'b0) begin
-            output_pos = (i*8) + part_msb[i];
+            output_pos <= (i*8) + part_msb[i];
             flag =1;
         end
         i = i-1;
