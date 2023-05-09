@@ -1,0 +1,73 @@
+$date
+	Tue May 09 15:16:52 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module msb_tb $end
+$var wire 6 ! output_pos [5:0] $end
+$var reg 32 " input_num [31:0] $end
+$scope module msb_32bit $end
+$var wire 32 # input_num [31:0] $end
+$var reg 6 $ output_pos [5:0] $end
+$var integer 32 % flag [31:0] $end
+$var integer 32 & i [31:0] $end
+$scope module msb_8bit_0 $end
+$var wire 8 ' input_num [7:0] $end
+$var reg 4 ( output_pos [3:0] $end
+$var integer 32 ) flag [31:0] $end
+$var integer 32 * i [31:0] $end
+$upscope $end
+$scope module msb_8bit_1 $end
+$var wire 8 + input_num [7:0] $end
+$var reg 4 , output_pos [3:0] $end
+$var integer 32 - flag [31:0] $end
+$var integer 32 . i [31:0] $end
+$upscope $end
+$scope module msb_8bit_2 $end
+$var wire 8 / input_num [7:0] $end
+$var reg 4 0 output_pos [3:0] $end
+$var integer 32 1 flag [31:0] $end
+$var integer 32 2 i [31:0] $end
+$upscope $end
+$scope module msb_8bit_3 $end
+$var wire 8 3 input_num [7:0] $end
+$var reg 4 4 output_pos [3:0] $end
+$var integer 32 5 flag [31:0] $end
+$var integer 32 6 i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101 6
+b1 5
+b111 4
+b1000001 3
+b100 2
+b1 1
+b110 0
+b110001 /
+b100 .
+b1 -
+b110 ,
+b110001 +
+b100 *
+b1 )
+b110 (
+b110001 '
+b10 &
+b1 %
+b11111 $
+b1000001001100010011000100110001 #
+b1000001001100010011000100110001 "
+b11111 !
+$end
+#10
