@@ -1,0 +1,149 @@
+$date
+	Tue May 09 16:23:32 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module msb_Nbit_tb $end
+$var wire 8 ! output_pos [7:0] $end
+$var parameter 32 " N $end
+$var reg 64 # input_num [63:0] $end
+$scope module msb_Nbit $end
+$var wire 64 $ input_num [63:0] $end
+$var parameter 32 % N $end
+$var reg 8 & output_pos [7:0] $end
+$var integer 32 ' flag [31:0] $end
+$var integer 32 ( i [31:0] $end
+$scope begin genblk1[0] $end
+$var parameter 2 ) j $end
+$scope module msb_8bit $end
+$var wire 8 * input_num [7:0] $end
+$var reg 4 + output_pos [3:0] $end
+$var integer 32 , flag [31:0] $end
+$var integer 32 - i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 . j $end
+$scope module msb_8bit $end
+$var wire 8 / input_num [7:0] $end
+$var reg 4 0 output_pos [3:0] $end
+$var integer 32 1 flag [31:0] $end
+$var integer 32 2 i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 3 j $end
+$scope module msb_8bit $end
+$var wire 8 4 input_num [7:0] $end
+$var reg 4 5 output_pos [3:0] $end
+$var integer 32 6 flag [31:0] $end
+$var integer 32 7 i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 8 j $end
+$scope module msb_8bit $end
+$var wire 8 9 input_num [7:0] $end
+$var reg 4 : output_pos [3:0] $end
+$var integer 32 ; flag [31:0] $end
+$var integer 32 < i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 = j $end
+$scope module msb_8bit $end
+$var wire 8 > input_num [7:0] $end
+$var reg 4 ? output_pos [3:0] $end
+$var integer 32 @ flag [31:0] $end
+$var integer 32 A i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 B j $end
+$scope module msb_8bit $end
+$var wire 8 C input_num [7:0] $end
+$var reg 4 D output_pos [3:0] $end
+$var integer 32 E flag [31:0] $end
+$var integer 32 F i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 G j $end
+$scope module msb_8bit $end
+$var wire 8 H input_num [7:0] $end
+$var reg 4 I output_pos [3:0] $end
+$var integer 32 J flag [31:0] $end
+$var integer 32 K i [31:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 L j $end
+$scope module msb_8bit $end
+$var wire 8 M input_num [7:0] $end
+$var reg 4 N output_pos [3:0] $end
+$var integer 32 O flag [31:0] $end
+$var integer 32 P i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 L
+b110 G
+b101 B
+b100 =
+b11 8
+b10 3
+b1 .
+b0 )
+b1000000 %
+b1000000 "
+$end
+#0
+$dumpvars
+b101 P
+b1 O
+b111 N
+b1000001 M
+b11111111111111111111111111111111 K
+b0 J
+b0 I
+b0 H
+b11111111111111111111111111111111 F
+b0 E
+b0 D
+b0 C
+b11111111111111111111111111111111 A
+b0 @
+b0 ?
+b0 >
+b11111111111111111111111111111111 <
+b0 ;
+b0 :
+b0 9
+b11111111111111111111111111111111 7
+b0 6
+b0 5
+b0 4
+b100 2
+b1 1
+b110 0
+b110001 /
+b100 -
+b1 ,
+b110 +
+b110001 *
+b110 (
+b1 '
+b111111 &
+b100000100000000000000000000000000000000000000000011000100110001 $
+b100000100000000000000000000000000000000000000000011000100110001 #
+b111111 !
+$end
+#10
