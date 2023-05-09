@@ -1,5 +1,5 @@
 $date
-	Tue May 09 16:26:31 2023
+	Tue May 09 18:04:40 2023
 $end
 $version
 	Icarus Verilog
@@ -10,83 +10,93 @@ $end
 $scope module msb_Nbit_tb $end
 $var wire 8 ! output_pos [7:0] $end
 $var parameter 32 " N $end
-$var reg 64 # input_num [63:0] $end
+$var reg 1 # clk $end
+$var reg 64 $ input_num [63:0] $end
 $scope module msb_Nbit $end
-$var wire 64 $ input_num [63:0] $end
-$var parameter 32 % N $end
-$var reg 8 & output_pos [7:0] $end
-$var integer 32 ' flag [31:0] $end
-$var integer 32 ( i [31:0] $end
+$var wire 1 # clk $end
+$var wire 64 % input_num [63:0] $end
+$var parameter 32 & N $end
+$var reg 8 ' output_pos [7:0] $end
+$var integer 32 ( flag [31:0] $end
+$var integer 32 ) i [31:0] $end
 $scope begin genblk1[0] $end
-$var parameter 2 ) j $end
+$var parameter 2 * j $end
 $scope module msb_8bit $end
-$var wire 8 * input_num [7:0] $end
-$var reg 4 + output_pos [3:0] $end
-$var integer 32 , flag [31:0] $end
-$var integer 32 - i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 + input_num [7:0] $end
+$var reg 4 , output_pos [3:0] $end
+$var integer 32 - flag [31:0] $end
+$var integer 32 . i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[1] $end
-$var parameter 2 . j $end
+$var parameter 2 / j $end
 $scope module msb_8bit $end
-$var wire 8 / input_num [7:0] $end
-$var reg 4 0 output_pos [3:0] $end
-$var integer 32 1 flag [31:0] $end
-$var integer 32 2 i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 0 input_num [7:0] $end
+$var reg 4 1 output_pos [3:0] $end
+$var integer 32 2 flag [31:0] $end
+$var integer 32 3 i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[2] $end
-$var parameter 3 3 j $end
+$var parameter 3 4 j $end
 $scope module msb_8bit $end
-$var wire 8 4 input_num [7:0] $end
-$var reg 4 5 output_pos [3:0] $end
-$var integer 32 6 flag [31:0] $end
-$var integer 32 7 i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 5 input_num [7:0] $end
+$var reg 4 6 output_pos [3:0] $end
+$var integer 32 7 flag [31:0] $end
+$var integer 32 8 i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[3] $end
-$var parameter 3 8 j $end
+$var parameter 3 9 j $end
 $scope module msb_8bit $end
-$var wire 8 9 input_num [7:0] $end
-$var reg 4 : output_pos [3:0] $end
-$var integer 32 ; flag [31:0] $end
-$var integer 32 < i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 : input_num [7:0] $end
+$var reg 4 ; output_pos [3:0] $end
+$var integer 32 < flag [31:0] $end
+$var integer 32 = i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[4] $end
-$var parameter 4 = j $end
+$var parameter 4 > j $end
 $scope module msb_8bit $end
-$var wire 8 > input_num [7:0] $end
-$var reg 4 ? output_pos [3:0] $end
-$var integer 32 @ flag [31:0] $end
-$var integer 32 A i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 ? input_num [7:0] $end
+$var reg 4 @ output_pos [3:0] $end
+$var integer 32 A flag [31:0] $end
+$var integer 32 B i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[5] $end
-$var parameter 4 B j $end
+$var parameter 4 C j $end
 $scope module msb_8bit $end
-$var wire 8 C input_num [7:0] $end
-$var reg 4 D output_pos [3:0] $end
-$var integer 32 E flag [31:0] $end
-$var integer 32 F i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 D input_num [7:0] $end
+$var reg 4 E output_pos [3:0] $end
+$var integer 32 F flag [31:0] $end
+$var integer 32 G i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[6] $end
-$var parameter 4 G j $end
+$var parameter 4 H j $end
 $scope module msb_8bit $end
-$var wire 8 H input_num [7:0] $end
-$var reg 4 I output_pos [3:0] $end
-$var integer 32 J flag [31:0] $end
-$var integer 32 K i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 I input_num [7:0] $end
+$var reg 4 J output_pos [3:0] $end
+$var integer 32 K flag [31:0] $end
+$var integer 32 L i [31:0] $end
 $upscope $end
 $upscope $end
 $scope begin genblk1[7] $end
-$var parameter 4 L j $end
+$var parameter 4 M j $end
 $scope module msb_8bit $end
-$var wire 8 M input_num [7:0] $end
-$var reg 4 N output_pos [3:0] $end
-$var integer 32 O flag [31:0] $end
-$var integer 32 P i [31:0] $end
+$var wire 1 # clk $end
+$var wire 8 N input_num [7:0] $end
+$var reg 4 O output_pos [3:0] $end
+$var integer 32 P flag [31:0] $end
+$var integer 32 Q i [31:0] $end
 $upscope $end
 $upscope $end
 $upscope $end
@@ -94,56 +104,216 @@ $upscope $end
 $enddefinitions $end
 $comment Show the parameter values. $end
 $dumpall
-b111 L
-b110 G
-b101 B
-b100 =
-b11 8
-b10 3
-b1 .
-b0 )
-b1000000 %
+b111 M
+b110 H
+b101 C
+b100 >
+b11 9
+b10 4
+b1 /
+b0 *
+b1000000 &
 b1000000 "
 $end
 #0
 $dumpvars
-b11111111111111111111111111111111 P
+b11111111111111111111111111111111 Q
+b0 P
 b0 O
-b0 N
-b0 M
-b11111111111111111111111111111111 K
+bx N
+b11111111111111111111111111111111 L
+b0 K
 b0 J
-b0 I
-b0 H
-b11111111111111111111111111111111 F
+bx I
+b11111111111111111111111111111111 G
+b0 F
 b0 E
-b0 D
-b0 C
-b11111111111111111111111111111111 A
+bx D
+b11111111111111111111111111111111 B
+b0 A
 b0 @
-b0 ?
-b0 >
-b11111111111111111111111111111111 <
+bx ?
+b11111111111111111111111111111111 =
+b0 <
 b0 ;
-b0 :
-b0 9
-b11111111111111111111111111111111 7
+bx :
+b11111111111111111111111111111111 8
+b0 7
 b0 6
-b0 5
-b0 4
-b100 2
-b1 1
-b110 0
-b110001 /
-b100 -
-b1 ,
-b110 +
-b110001 *
+bx 5
+b11111111111111111111111111111111 3
+b0 2
+b0 1
+bx 0
+b11111111111111111111111111111111 .
+b0 -
+b0 ,
+bx +
+b11111111111111111111111111111111 )
 b0 (
-b1 '
-b1110 &
-b11000100110001 $
-b11000100110001 #
-b1110 !
+b0 '
+bx %
+bx $
+1#
+b0 !
 $end
+#5
+0#
 #10
+b1 (
+b1110 !
+b1110 '
+b0 )
+b11111111111111111111111111111111 Q
+b11111111111111111111111111111111 L
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 8
+b1 2
+b110 1
+b100 3
+b1 -
+b110 ,
+b100 .
+b110001 +
+b110001 0
+b0 5
+b0 :
+b0 ?
+b0 D
+b0 I
+b0 N
+1#
+b11000100110001 $
+b11000100110001 %
+#15
+0#
+#20
+b100 .
+b110 ,
+b1 -
+b100 3
+b110 1
+b1 2
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 L
+b11111111111111111111111111111111 Q
+b0 )
+b1110 !
+b1110 '
+b1 (
+1#
+#25
+0#
+#30
+b110 )
+b111110 !
+b111110 '
+b1 (
+b1 P
+b110 O
+b100 Q
+b11111111111111111111111111111111 L
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 8
+b100 3
+b110 1
+b1 2
+b100 .
+b110 ,
+b1 -
+b110001 N
+1#
+b11000100000000000000000000000000000000000000000011000100110001 $
+b11000100000000000000000000000000000000000000000011000100110001 %
+#35
+0#
+#40
+b100 .
+b110 ,
+b1 -
+b100 3
+b110 1
+b1 2
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 L
+b100 Q
+b110 O
+b1 P
+b110 )
+b111110 !
+b111110 '
+b1 (
+1#
+#45
+0#
+#50
+b11111111111111111111111111111111 )
+b1 !
+b1 '
+b1 (
+b11111111111111111111111111111111 Q
+b0 O
+b0 P
+b11111111111111111111111111111111 L
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 3
+b0 1
+b0 2
+b11111111111111111111111111111111 .
+b1 ,
+b1 -
+b1 +
+b0 0
+b0 N
+1#
+b1 $
+b1 %
+#55
+0#
+#60
+b11111111111111111111111111111111 .
+b1 ,
+b1 -
+b11111111111111111111111111111111 3
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 L
+b11111111111111111111111111111111 Q
+b11111111111111111111111111111111 )
+b1 !
+b1 '
+b1 (
+1#
+#65
+0#
+#70
+b11111111111111111111111111111111 )
+b1 !
+b1 '
+b1 (
+b11111111111111111111111111111111 Q
+b11111111111111111111111111111111 L
+b11111111111111111111111111111111 G
+b11111111111111111111111111111111 B
+b11111111111111111111111111111111 =
+b11111111111111111111111111111111 8
+b11111111111111111111111111111111 3
+b11111111111111111111111111111111 .
+b1 ,
+b1 -
+1#
