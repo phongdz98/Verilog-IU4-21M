@@ -18,7 +18,7 @@ begin
 end;
 
 initial begin
-    input_num = 64'h4100000000003131;
+    input_num = 64'h0000000000003131;
     #10;
     $finish();
 end
